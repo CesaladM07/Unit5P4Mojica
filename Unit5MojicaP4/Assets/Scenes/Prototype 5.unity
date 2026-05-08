@@ -386,8 +386,9 @@ MonoBehaviour:
   - {fileID: 2260274066585892991, guid: 16af90b6a04e680439c7031544b4d696, type: 3}
   - {fileID: 2919104946968084091, guid: a8ea9b18d46136640bd1a3adcfa40fec, type: 3}
   gameOverText: {fileID: 1141321366}
-  isGameActive: 0
+  isGameActive: 1
   spawnRate: 1
+  titleScreen: {fileID: 0}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,8 +954,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1418,16 +1419,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: bccdc6f92356eaa469d57c0af7a04653, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 55579330}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: GameManager.RestartGame
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1835625016
